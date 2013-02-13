@@ -1,0 +1,15 @@
+# LAYER_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+LCONF_VERSION = "5"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /run/media/mmoselhy/OE/poky/danny/poky/meta \
+  /run/media/mmoselhy/OE/poky/danny/poky/meta-yocto \
+  /run/media/mmoselhy/OE/poky/danny/poky/meta-yocto-bsp \
+  /run/media/mmoselhy/OE/poky/danny/poky/meta-openembedded/meta-oe \
+  /run/media/mmoselhy/OE/poky/danny/poky/meta-angstrom \
+  /run/media/mmoselhy/OE/poky/danny/poky/meta-openembedded/meta-systemd \
+  "

@@ -1,0 +1,3 @@
+SANITY_VERSION 1
+TMPDIR /run/media/mmoselhy/OE/poky/danny/poky/build/tmp-eglibc
+SSTATE_DIR /run/media/mmoselhy/OE/poky/danny/poky/build/sstate-cache
